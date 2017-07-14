@@ -1,3 +1,8 @@
+---
+layout: post
+title: 플라스크 설치
+---
+
 가상환경을 이용하여 파이썬 패키지를 편리하게 설치 및 관리할 수 있다. 첫 예제로 Flask라는 웹 프레임워크를 설치해본다.
 
 먼저, 이전에 만들었던 `Stock` 가상환경을 실행한다. 해당 디렉토리로 가서 `source` 명령을 이용한다.
@@ -27,3 +32,17 @@ pip3 list —format=columns
 ![check flask]({{ site.baseurl}}/images/flask/check-flask.png)
 
 `Flask` 패키지가 제대로 설치되었으면 파이썬에서 `import flask` 명령으로 불러올 수 있다.
+
+Flask 패키지는 `Stock`이라는 가상환경에 설치되었다. 그러므로 Flask와 관련된 패키지는 `Stock` 가상환경 밖에는 영향을 미치지 못한다.
+
+`Stock` 가상환경을 끝내려면 `deactivate` 명령을 이용한다.
+
+```bash
+deactivate
+``` 
+
+가상환경이 끝났으므로 `(Stock)` 이라는 글자가 쉘 프롬프트 앞에서 사라졌다. 이제 `pip3` 명령으로 설치된 패키지 목록을 보면 Flask 패키지가 없는 것을 알 수 있다.
+
+![no-virtualenv]({{ site.baseurl}}/images/no-virtualenv.png)
+
+파이썬에서 `import flask` 명령으로 Flask 패키지를 불러보면 그런 이름의 모듈을 찾을 수 없다는 에러가 난다.
