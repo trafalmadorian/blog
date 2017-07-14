@@ -19,3 +19,21 @@ pip3 install pandas
 
 ![install flask]({{ site.baseurl}}/images/pandas/install-pandas.png)
 
+Pandas 뿐 아니라 연관 패키지도 모두 설치되었다. 자세한 목록은 아래 명령으로 확인할 수 있다.
+
+```bash
+pip3 list --format=columns
+```
+
+![install flask]({{ site.baseurl}}/images/pandas/check-list.png)
+
+Pandas에서 파생된 패키지 중에서 ```pandas_datareader```를 설치한다.
+
+```bash
+pip3 install pandas_datareader
+```
+
+마찬가지로 관련된 패키지도 설치되었다. 정확한 목록은 아래와 같다.
+
+![install flask]({{ site.baseurl}}/images/pandas/check-list-again.png)
+
