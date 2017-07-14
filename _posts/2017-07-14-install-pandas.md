@@ -60,4 +60,4 @@ python3 kospi.py
 
 ![install flask]({{ site.baseurl}}/images/pandas/kospi.png)
 
-이 스크립트는 주어진 기간동안 주가 정보를 5개의 필드로 출력함을 알 .
+이 스크립트는 주어진 기간동안 주가 정보를 5개의 필드로 출력한다.
