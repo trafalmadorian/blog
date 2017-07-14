@@ -39,3 +39,25 @@ pip3 install pandas_datareader
 
 ![install flask]({{ site.baseurl}}/images/pandas/check-list-again.png)
 
+간단한 파이썬 스크립트를 이용해서 제대로 설치되었는지 테스트할 수 있다.
+아래 파일 ```kospi.py```는 Google Finance를 통해서 kospi 정보를 내려받는다.
+
+```python
+from pandas_datareader import data
+from datetime import datetime
+
+# set the search date
+start, end = datetime(2017, 7, 3), datetime(2017, 7, 7)
+# retrieve KOSPI index for given time period
+web = data.get_data_google("KRX:KOSPI", start, end)
+
+print(web)
+```
+다음과 같은 명령으로 실행할 수 있다.
+```bash
+python3 kospi.py
+```
+
+![install flask]({{ site.baseurl}}/images/pandas/kospi.png)
+
+이 스크립트는 주어진 기간동안 주가 정보를 5개의 필드로 출력함을 알 .
