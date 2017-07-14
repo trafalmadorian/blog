@@ -1,0 +1,10 @@
+---
+layout: post
+title: 가상환경 설정
+---
+
+먼저 Python3가 설치되어 있고 버전이 3.6 이상임을 확인한다.
+
+![python version]({{ site.baseurl }}/images/python-version.png)
+
+
