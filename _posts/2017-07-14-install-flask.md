@@ -43,6 +43,6 @@ deactivate
 
 가상환경이 끝났으므로 `(Stock)` 이라는 글자가 쉘 프롬프트 앞에서 사라졌다. 이제 `pip3` 명령으로 설치된 패키지 목록을 보면 Flask 패키지가 없는 것을 알 수 있다.
 
-![no-virtualenv]({{ site.baseurl}}/images/no-virtualenv.png)
+![no-virtualenv]({{ site.baseurl}}/images/flask/no-virtualenv.png)
 
 파이썬에서 `import flask` 명령으로 Flask 패키지를 불러보면 그런 이름의 모듈을 찾을 수 없다는 에러가 난다.
