@@ -33,7 +33,9 @@ Pandas에서 파생된 패키지 중에서 ```pandas_datareader```를 설치한�
 pip3 install pandas_datareader
 ```
 
-마찬가지로 관련된 패키지도 설치되었다. 정확한 목록은 아래와 같다.
+![install flask]({{ site.baseurl}}/images/pandas/install-pandas-reader.png)
+
+마찬가지로 관련된 패키지도 설치되었다. 자세한 목록은 아래와 같다.
 
 ![install flask]({{ site.baseurl}}/images/pandas/check-list-again.png)
 
