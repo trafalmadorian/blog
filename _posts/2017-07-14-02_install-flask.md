@@ -34,6 +34,7 @@ pip3 list —format=columns
 
 `Flask` 패키지가 제대로 설치되었으면 파이썬에서 `import flask` 명령으로 불러올 수 있다.
 
+## 참고: 가상환경의 영향 범위
 Flask 패키지는 `Stock`이라는 가상환경에 설치되었다. 그러므로 Flask와 관련된 패키지는 `Stock` 가상환경 밖에는 영향을 미치지 못한다.
 
 `Stock` 가상환경을 끝내려면 `deactivate` 명령을 이용한다.
